@@ -12,6 +12,8 @@ function SinglyLinkedList () {
 SinglyLinkedList.prototype.insertElement = function (newNode) {
     if (this._head === null) {
         this._head = newNode; 
+        this._size++;
+
         return;
     }
     else {
@@ -21,6 +23,7 @@ SinglyLinkedList.prototype.insertElement = function (newNode) {
             tmpNode = tmpNode._next;
         }        
 
+        this._size++;
         tmpNode._next = newNode;         
     }
 }
@@ -36,6 +39,17 @@ SinglyLinkedList.prototype.getFirst = function () {
 }
 
 
+SinglyLinkedList.prototype.print = function() {
+    var tmpNode = this._head;
+
+    for (; tmpNode !== null; tmpNode = tmpNode._next) {
+        console.log (tmpNode._data + " ");
+    }
+
+    console.log ("\n");
+}
+
+
 var llk = new SinglyLinkedList();
 
 var ar = [3, 4, 5, 6, 9];
@@ -46,9 +60,7 @@ for (let i = 0; i < ar.length; ++i) {
     llk.insertElement(tmpNode);
 }
 
+console.log ("Size of list: " + llk.getSize());
 
-var tmpNode = llk._head;
-for (let j = 0; j < llk.getSize(); ++i) {
-    console.log("   ")
+llk.print();
 
-}
