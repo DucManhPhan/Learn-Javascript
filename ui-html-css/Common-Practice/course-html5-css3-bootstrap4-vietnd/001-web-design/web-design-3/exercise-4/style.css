@@ -1,3 +1,7 @@
+
+/* 1st way - not to use div to include some elements: a, p.
+ * use the adjustation manually with padding property.
+
 article.container {
     width: 620px; 
     height: 220px;
@@ -36,4 +40,6 @@ a.related-pages {
     background-position: 341px top;
     background-repeat: no-repeat;
     padding-left: 362px;
-}
+} */
+
+/* 2nd way - use div */
