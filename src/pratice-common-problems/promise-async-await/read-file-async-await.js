@@ -2,6 +2,9 @@ const fs = require('fs');
 const util = require('util');
 
 // Convert fs.readFile into Promise version of same.
+// The promisify is used when the callback of the asynchronous operation is the common error-first callback style: 
+// "(err, result) => {...}" - callback as the last argument, and returns a version that returns promises.
+// If not, use the custom promisify.
 const readFile = util.promisify(fs.readFile);
 
 async function readFileAsync() {
