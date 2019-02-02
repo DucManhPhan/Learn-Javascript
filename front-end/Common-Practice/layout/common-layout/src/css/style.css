@@ -1,0 +1,102 @@
+* {
+    padding: 0; 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header */
+.header {
+    padding: 30px; 
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Top-nav */
+.top-nav {
+    background-color: #333333;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.top-nav a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 11px 17px;
+}
+
+.top-nav a:hover {
+    background-color: #DDDDDD;
+    color: black;
+}
+
+/* left-column */
+.left-column {
+    float: left;
+    width: 72%;
+}
+
+.right-column {
+    float: right;
+    width: 25%; 
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 50px 20px 25px;
+    margin-top: 20px;
+}
+
+.card h5 {
+    margin: 25px 0px 20px;
+}
+
+.right-column .card h2, h3 {
+    margin-bottom: 20px;
+}
+
+.fakeimg {
+    background-color: #aaaaaa;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #DDDDDD;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .left-column, .right-column {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .top-nav a {
+        float: none;
+        width: 100%;
+    }
+}
