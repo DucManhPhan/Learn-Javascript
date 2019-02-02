@@ -1,0 +1,31 @@
+#content-wrap{
+	width: 670px; 
+	height: 95px;
+	display: inline-block;
+
+	background-color: #eeeeee;
+	border-color: #dadada;
+}
+
+.part-article {
+	width: 210px; 
+	height: 76px;
+	margin: 5px;
+	float: left;
+}
+
+.part-article img{
+	float: left;
+}
+
+a {
+	font-family: arial; 
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	color: #363636;
+}
+
+a:hover {
+	color: blue;
+}

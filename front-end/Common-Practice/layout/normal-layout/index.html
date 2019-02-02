@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Layout</title>
+</head>
+<body style="font-family:Myriad Pro">
+    <div id="container">
+        <div id="header" style="font-size: 30px; 
+                                text-align: center;
+                                color: white;
+                                height: 70px;
+                                line-height: 70px;  
+                                background-color: black">
+            <h1>Front-end Web Design</h1>
+        </div>
+    
+        <div id="content-wrapper">
+            <div class="sidebar" style="background-color:lightgray;
+                                        width: 20%; 
+                                        height: 300px; 
+                                        padding: 20px;
+                                        float: left;">
+                <ul class="links_list" style="list-style-type: none;
+                                              padding: 0px">
+                    <li><a href="" style="color: black">HTML</a></li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+
+            <div class="main_content" style="width: 70%; float: right">
+                <h2>HTML là gì ?</h2>
+                <p>Là một ngôn ngữ đánh dấu dùng để mô tả nội dung tài liệu web (trang web)</p>
+                <h2>Nguyên tắc dựng cấu trúc các thẻ HTML</h2>
+            
+                <ul>
+                    <li>Các thẻ H1 - H6 và P không thể bọc lẫn nhau.</li>
+                    <li>Thẻ P chỉ có thể bọc phần tử dạng inline</li>
+                    <li>Phần tử, thẻ cấp độ Block level có thể bọc inline level.</li>
+                    <li>Thẻ inline chỉ có thể bọc inline và không nên dùng đơn lẻ.</li>
+                    <li>Sử dụng Div để nhóm các phần tử liên quan với nhau.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer" style="clear: both; background-color: black; color: white; 
+                                height: 50px; 
+                                text-align: center; line-height: 50px">&copy Bản quyền 2015 thuộc về Studio.</div>
+    </div>
+</body>
+</html>
