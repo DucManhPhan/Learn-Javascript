@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading-primary">CSS + HTML only Accordion Element</h1>
+        <ul class="navigation">
+            <li class="navigation__item">
+                <input type="checkbox" checked>                
+                <h2 class="navigation__item__title">Languages Used <i class="fas fa-chevron-down"></i></h2>
+                <p class="navigation__item__content">This page was written in HTML and CSS. The CSS was compiled from SASS. I used Normalize as my CSS reset and -prefix-free to save myself some headaches. I haven't quite gotten the hang of Slim for compiling into HTML, but someday I'll use it since its syntax compliments that of SASS. Regardless, this could all be done in plain HTML and CSS.</p>
+            </li>
+            <li class="navigation__item">
+                <input type="checkbox" checked>
+                <h2 class="navigation__item__title">How it Works <i class="fas fa-chevron-down"></i></h2>
+                <p class="navigation__item__content">Using the sibling and checked selectors, we can determine the styling of sibling elements based on the checked state of the checkbox input element. One use, as demonstrated here, is an entirely CSS and HTML accordion element. Media queries are used to make the element responsive to different screen sizes.</p>
+            </li>
+            <li class="navigation__item">
+                <input type="checkbox" checked>
+                <h2 class="navigation__item__title">Points of Interest <i class="fas fa-chevron-down"></i></h2>
+                <p class="navigation__item__content">By making the open state default for when :checked isn't detected, we can make this system accessable for browsers that don't recognize :checked. The fallback is simply an open accordion. The accordion can be manipulated with Javascript (if needed) by changing the "checked" property of the input element.</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
