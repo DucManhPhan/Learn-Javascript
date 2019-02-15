@@ -22,6 +22,7 @@
 
 .accordion .item {
     display: block;    
+    overflow: hidden;
 }
 
 .item .header, .item:last-child a {
