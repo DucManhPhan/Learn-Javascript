@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 50px;
+}
+
+.notification {
+    position: relative;
+    background-color: #3C8DBC;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.notification:hover {
+    background: #367FA9;
+}
+
+.notification .badge {
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 3px;
+    background-color: #00a65a;
+    line-height: .9;
+}
+
+/* .dropdown-menu {
+    display: none;
+} */
