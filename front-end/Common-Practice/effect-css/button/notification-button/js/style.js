@@ -1,5 +1,15 @@
+let isClick = false;
+
 $(document).ready(function() {
     $(".notification").click(function() {
-        $(".dropdown-menu").addClass("open");
+        if (!isClick) {
+            $(".dropdown-menu").show();
+        } else {
+            $(".dropdown-menu").hide();
+        }
+
+        isClick = !isClick;
     });
+
+    $(".dropdown-menu").hide();
 });

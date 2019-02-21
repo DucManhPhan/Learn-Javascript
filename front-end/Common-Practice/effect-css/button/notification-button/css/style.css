@@ -43,15 +43,10 @@ body {
 .dropdown-menu {
     display: none;
     position: absolute;
-    right: 5%;
+    right: 57%;
     left: auto;
     border: 1px solid #dddddd;
     background: #ffffff;
-}
-
-.open {
-    display: block;
-    background-color: #00a65a;
 }
 
 .dropdown-menu .header {
