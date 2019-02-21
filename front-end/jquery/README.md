@@ -1,0 +1,1 @@
+All exercises in this folder will get from [w3resource.com](https://www.w3resource.com/jquery-exercises/)
