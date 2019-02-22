@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { $ } from 'protractor';
+
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-header',
