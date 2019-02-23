@@ -1,0 +1,1 @@
+[https://www.w3resource.com/jquery-exercises/](https://www.w3resource.com/jquery-exercises/)
