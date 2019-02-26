@@ -12,4 +12,6 @@ export class ParentComponent implements OnInit {
   ngOnInit() {
   }
 
+  parentMessage: string = "This is the message from parent.";
+
 }
