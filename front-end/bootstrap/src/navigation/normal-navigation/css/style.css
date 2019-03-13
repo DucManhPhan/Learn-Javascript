@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.content {
+    margin: 100px 30px;
+    
+}
+
+.fa-margin, .glyphicon-margin {
+    margin-right: 5px;
+}
+
+.btn-inline, .form-inline {
+    display: inline-block;    
+}
+
+.btn-inline {    
+    float: right;
+}
+
+.data-table {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.data-info {
+    font-size: 17px;
+}
+
+table th, td {
+    text-align: center;
+}
