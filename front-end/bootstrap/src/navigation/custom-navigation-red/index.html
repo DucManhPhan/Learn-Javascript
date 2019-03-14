@@ -10,43 +10,59 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda+One">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Custom navigation bar</title>
 </head>
 <body>
-    <div class="content">
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">BrandName</a>
-            </div>
-
+    <nav class="navbar navbar-default navbar-expand-xl navbar-light">
+        <div class="navbar-header d-flex col">
+            <a href="#" class="navbar-brand">
+                <i class="fa fa-cube"></i>
+                Brand<b>Name</b>
+            </a>
+        </div>
+        <div id="navbarCollapse" class="navbar-collapse justify-content-start collapse"
+            aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
-                        <span class="caret"></span>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        Services
+                        <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#" class="dropdown-item">Web Design</a></li>
+                        <li><a href="#" class="dropdown-item">Web Development</a></li>
+                        <li><a href="#" class="dropdown-item">Graphic Design</a></li>
+                        <li><a href="#" class="dropdown-item">Digital Marketing</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
             </ul>
 
-            <form action="" class="navbar-form form-inline">
+            <!--Form search-->
+            <form action="#" class="navbar-form form-inline">
                 <div class="input-group search-box">
-                    <input id="search" type="text" class="form-control" placeholder="Search by Name">
-                    <span class="input-group-addon">                        
-                        <i class="glyphicon glyphicon-search"></i>                        
+                    <input type="text" id="search" class="form-control" placeholder="Search by name">
+                    <span class="input-group-addon">
+                        <i class="fa fa-search"></i>
                     </span>
                 </div>
             </form>
 
-            <ul class="nav navbar-nav navbar-right">
+            <!--Logout-->
+            <ul class="nav navbar-nav navbar-right ml-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link notifications">
                         <i class="fa fa-bell"></i>
@@ -57,11 +73,40 @@
                     <a href="#" class="nav-link messages">
                         <i class="fa fa-envelope"></i>
                         <span class="badge">10</span>
-                    </a>
+                    </a>                    
                 </li>
-
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        <img src="data:image/png;base64,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" alt="Avatar" class="avatar">
+                        Paul Wilson
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-user"></i>Profile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-calendar"></i>Calendar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-sliders-h"></i>Settings
+                            </a>
+                        </li>
+                        <li class="divider dropdown-divider"></li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-sign-out-alt"></i>Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </body>
 </html>
