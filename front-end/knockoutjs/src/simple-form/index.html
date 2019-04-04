@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Simple form for registering information</title>
+</head>
+<body>
+    <form action="">
+        <div id="form-root">
+            <div>
+                <label for="txtFirstName" class="form-label">First Name: </label>
+                <input type="text" id="txtFirstName" name="txtFirstName" data-bind="value: Employee.FirstName">
+            </div>
+
+            <div>
+                <label for="txtLastName" class="form-label">First Name: </label>
+                <input type="text" id="txtLastName" name="txtLastName" data-bind="value: Employee.LastName">
+            </div>
+
+            <div>
+                <label for="txtFullName" class="form-label">Full Name: </label>
+                <input type="text" id="txtFullName" name="txtFullName" data-bind="value: Employee.FullName" readonly>
+            </div>
+
+            <div>
+                <label class="form-label">Date Of Birth:</label>
+                <input type="text" id="txtDateOfBirth" name="dateOfBirth" data-bind="value:Employee.DateOfBirth"  />
+            </div>
+            <div>
+                <label>Education:</label>
+                <input type="checkbox" value="graduation" id="chkGraduation" name="chkGraduation" data-bind="checked:Employee.EducationList" />Graduation
+                <input type="checkbox" value="postGraduation" id="chkPostGraduation" name="chkPostGraduation" data-bind="checked:Employee.EducationList" />PostGraduation
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="rdoMale" name="gender" value="0"  data-bind="checked:Employee.Gender" />Male
+                <input type="radio" id="rdoFeMale" name="gender" value="1" data-bind="checked:Employee.Gender"  />FeMale
+            </div>
+            <div>
+                <label class="form-label">Department:</label>
+                <select id="ddlDepartment" name="ddlDepartment" data-bind="options:$root.Employee.DepartmentList, 
+                                                                           optionsValue:'Id', 
+                                                                           optionsText:'Name', 
+                                                                           value:Employee.DepartmentId">
+                </select>
+            </div>
+            <div>
+                <input type="button" id="btnSubmit" value="Submit" data-bind = "click: submit" />
+
+                <input type="button" id="btnReset" value="Reset" data-bind = "click: reset" />
+            </div>
+        </div>
+    </form>
+
+    <script src="./js/knockout-3.5.0.js"></script>
+    <script src="./js/view-model.js"></script>
+</body>
+</html>
