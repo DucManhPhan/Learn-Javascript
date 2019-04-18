@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdownlist with KnockoutJS</title>
+</head>
+<body>
+    <p>
+        Your country:
+        <select data-bind="options: availableCountries,
+                           optionsText: 'countryName',
+                           value: selectedCountry,
+                           optionsCaption: 'Choose...'"></select>
+    </p>
+     
+    <div data-bind="visible: selectedCountry">
+        You have chosen a country with population
+        <span data-bind="text: selectedCountry() ? selectedCountry().countryPopulation : 'unknown'"></span>.
+    </div>  
+    
+    <script src="./js/knockout-3.5.0.js"></script>
+    <script src="./js/view-model.js"></script>
+</body>
+</html>
