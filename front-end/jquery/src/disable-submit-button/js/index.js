@@ -17,4 +17,11 @@ $(document).ready(function() {
             $("#btn").prop('disabled', true);
         }
     });
+
+    $("#btn").click(function(e) {
+        e.preventDefault();
+
+        alert("Hey, what is your name?");
+        // return false;
+    })
 });
