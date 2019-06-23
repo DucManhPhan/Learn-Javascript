@@ -6,6 +6,31 @@
     box-sizing: border-box;
 }
 
+.container {
+    height: 45em;
+    position: relative;
+}
+
 th {
-    text-align: left;
+    border: 1px outset silver;
+    background-color: maroon;
+    color: white;
+}
+
+td {
+    padding: 1px 8px;
+}
+
+.infor-table {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.5px groove gray;
+    border-collapse: collapse;
+}
+
+.striped {
+    background-color: #ff7f51;
 }
