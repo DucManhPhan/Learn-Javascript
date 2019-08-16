@@ -1,0 +1,21 @@
+{
+  "name": "trie-search",
+  "version": "1.0.0",
+  "description": "Use trie for search array of objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Learn-javascript"
+  },
+  "keywords": [
+    "trie"
+  ],
+  "dependencies": {
+    "trie-search": "1.2.11"
+  },
+  "author": "ManhPD5",
+  "license": "ISC"
+}
