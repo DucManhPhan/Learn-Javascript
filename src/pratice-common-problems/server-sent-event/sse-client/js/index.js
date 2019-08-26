@@ -3,7 +3,7 @@
 let eventSource = null;
 
 function onStart() {
-    eventSource = new EventSource("http://localhost:8080/chat/room/phong-1/1"); //notifications/123");
+    eventSource = new EventSource("http://localhost:8088/notifications/123");
     eventSource.addEventListener('message', onMessage, false);
     eventSource.onerror = onError;
     eventSource.onopen = onOpen;
