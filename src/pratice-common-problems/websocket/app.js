@@ -1,4 +1,5 @@
 var ws = null;
+// var url = "ws://dev.travelcells.com.vn:8088/ws/nsd/v1/notifications";
 var url = "ws://localhost:8088/ws/nsd/v1/notifications";
  
 function setConnected(connected)
