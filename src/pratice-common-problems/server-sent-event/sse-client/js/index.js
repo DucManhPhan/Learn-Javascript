@@ -3,7 +3,8 @@
 let eventSource = null;
 
 function onStart() {
-    eventSource = new EventSource("http://localhost:8088/notifications/123");
+    // http://dev.travelcells.com.vn
+    eventSource = new EventSource("http://dev.travelcells.com.vn:8088/com.viettel.vocs-service/sse/notifications/service");
     eventSource.addEventListener('message', onMessage, false);
     eventSource.onerror = onError;
     eventSource.onopen = onOpen;
