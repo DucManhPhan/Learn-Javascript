@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#C0BFBF;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#009933;stroke-width:6;stroke-miterlimit:10;}
+	.st4{fill:#ED2224;}
+	.st5{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#ED2224;stroke-width:4;stroke-miterlimit:10;}
+	.st7{font-family:'Arial-BoldMT';}
+	.st8{font-size:9px;}
+</style>
+<g id="shadow">
+	<path id="XMLID_132_" class="st0" d="M68.8,60.7H6.1l0,26.6h62.7l20.1-13.6L68.8,60.7z"/>
+	<line id="XMLID_131_" class="st0" x1="93.8" y1="39.9" x2="93.8" y2="73.6"/>
+	<rect id="XMLID_48_" x="42.6" y="12.7" class="st0" width="51.2" height="26.7"/>
+	<polygon id="XMLID_47_" class="st0" points="93.8,15 75.9,26 93.8,37 	"/>
+	<line id="XMLID_46_" class="st0" x1="10.2" y1="90.2" x2="69.6" y2="61.1"/>
+	<line id="XMLID_45_" class="st0" x1="10" y1="57.7" x2="71.2" y2="87.7"/>
+</g>
+<g id="main">
+	<line id="XMLID_43_" class="st3" x1="3.1" y1="90.3" x2="69.7" y2="57.7"/>
+	<line id="XMLID_42_" class="st3" x1="3.1" y1="57.7" x2="69.7" y2="90.3"/>
+	<path id="XMLID_41_" class="st5" d="M69.7,57.7H3.1v32.6h66.6l24.7-16.7L69.7,57.7z"/>
+	<line id="XMLID_40_" class="st5" x1="96.8" y1="9.7" x2="96.8" y2="73.6"/>
+	<rect id="XMLID_39_" x="39.6" y="9.7" class="st5" width="57.2" height="32.7"/>
+	<polyline id="XMLID_38_" class="st5" points="96.8,9.7 70.1,26 96.8,42.4 	"/>
+</g>
+</svg>

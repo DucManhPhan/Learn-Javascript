@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" version="1.1" y="0px" width="110px" viewBox="0 0 110 110" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" height="110px" enable-background="new 0 0 110 110">
+ <g>
+  <g id="draw">
+   <g id="shadow">
+    <rect x="18.969" fill="none" stroke="#BFBFBF" y="28.917" stroke-miterlimit="10" width="72.062" height="52.167" stroke-width="4"/>
+    <circle fill="none" stroke="#BFBFBF" cy="55" stroke-miterlimit="10" cx="55.163" r="13.659" stroke-width="4"/>
+   </g>
+   <g id="main">
+    <rect x="15" fill="none" stroke="#000000" y="25" stroke-miterlimit="10" width="80" height="60" stroke-width="4"/>
+    <circle fill="none" stroke="#000000" cy="55" stroke-miterlimit="10" cx="55.163" r="17.5" stroke-width="4"/>
+   </g>
+  </g>
+  <text fill="#231f20" font-size="12" fill-capacity="0" font-family="'Roboto-Medium'" stroke-capacity="0" transform="matrix(1 0 0 1 51.1695 58.5067)"></text>
+ </g>
+</svg>

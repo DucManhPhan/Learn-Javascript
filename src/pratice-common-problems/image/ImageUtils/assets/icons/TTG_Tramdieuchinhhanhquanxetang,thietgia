@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BFBFBE;}
+	.st1{fill:#C0BFBF;}
+	.st2{font-family:'Arial-BoldMT';}
+	.st3{font-size:12px;}
+	.st4{fill:none;stroke:#C0BFBF;stroke-width:3.4215;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#C0BFBF;stroke-width:6.6367;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#C0BFBF;stroke-width:2;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:10.921,10.9212;}
+	.st10{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:11.6429,11.6429;}
+	.st11{fill:none;stroke:#C0BFBF;stroke-width:7.5652;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#C0BFBF;stroke-width:3;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#C0BFBF;stroke-width:6.5808;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#C0BFBF;stroke-width:6.6237;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#ED2224;stroke-width:4;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#ED2224;stroke-width:2;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:10.921,10.9212;}
+	.st19{fill:#ED2224;}
+	.st20{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:11.6429,11.6429;}
+	.st21{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st22{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st23{fill:none;stroke:#0C00FF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="shadow">
+	<polygon id="XMLID_139_" class="st1" points="58,2.8 58,38.2 16.5,17.9 	"/>
+	<text transform="matrix(1 0 0 1 55.5049 87.85)" class="st2 st3">T</text>
+	<circle id="XMLID_141_" class="st7" cx="59.3" cy="83.2" r="9.6"/>
+	<line id="XMLID_140_" class="st7" x1="56.5" y1="11.4" x2="56.5" y2="74.4"/>
+</g>
+<g id="main">
+	<circle id="XMLID_137_" class="st16" cx="59.5" cy="83.1" r="13.5"/>
+	<line id="XMLID_136_" class="st16" x1="59.5" y1="6.7" x2="59.5" y2="69.6"/>
+	<polygon id="XMLID_135_" class="st19" points="62.5,-0.1 62.4,37.3 20.2,16.4 	"/>
+</g>
+</svg>

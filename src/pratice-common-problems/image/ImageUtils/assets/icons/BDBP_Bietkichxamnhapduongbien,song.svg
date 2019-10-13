@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 190 100" style="enable-background:new 0 0 190 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st3{fill:#C0BFBF;}
+	.st4{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:14,4;}
+	.st5{fill:none;stroke:#0099CC;stroke-width:6;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#0099CC;stroke-width:2.2;stroke-miterlimit:10;}
+	.st7{fill:#0099CC;}
+	.st8{fill:none;stroke:#0099CC;stroke-width:4;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#0099CC;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:14,4;}
+	.st10{font-family:'Arial-BoldMT';}
+	.st11{font-size:18px;}
+	.st12{fill:none;stroke:#ED2224;stroke-width:5;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:14,4;}
+	.st15{fill:#ED2224;}
+	.st16{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;stroke-dasharray:9.871,3.9484;}
+	.st17{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:bevel;stroke-miterlimit:5;}
+	.st20{fill:#0099CC;stroke:#0099CC;stroke-miterlimit:10;}
+	.st21{font-size:10px;}
+	.st22{stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="shadow">
+	<line class="st1" x1="36" y1="69.3" x2="41.1" y2="85.4"/>
+	<line class="st1" x1="29.9" y1="78.2" x2="47.3" y2="77.1"/>
+	<line class="st1" x1="37.6" y1="77" x2="55.4" y2="53.3"/>
+	<circle id="XMLID_181_" class="st0" cx="65" cy="36.6" r="19"/>
+	<g>
+		<g>
+			<line class="st0" x1="87" y1="39.6" x2="124.8" y2="39.6"/>
+			<g>
+				<polygon class="st3" points="119.1,47.2 122.3,39.6 119.1,32.1 137,39.6 				"/>
+			</g>
+		</g>
+	</g>
+	<line class="st0" x1="3" y1="39.5" x2="43" y2="39.5"/>
+</g>
+<g id="main">
+	<line class="st8" x1="33.3" y1="67.4" x2="38.4" y2="83.5"/>
+	<line class="st8" x1="27.2" y1="76.4" x2="44.6" y2="75.3"/>
+	<line class="st8" x1="35.9" y1="75.8" x2="53.8" y2="52"/>
+	<g>
+		<g>
+			<line class="st5" x1="87" y1="36.6" x2="124.8" y2="36.6"/>
+			<g>
+				<polygon class="st7" points="119.1,44.2 122.3,36.6 119.1,29.1 137,36.6 				"/>
+			</g>
+		</g>
+	</g>
+	<line class="st5" x1="3" y1="36.6" x2="43" y2="36.6"/>
+	<circle id="XMLID_59_" class="st5" cx="65" cy="36.6" r="22"/>
+</g>
+</svg>

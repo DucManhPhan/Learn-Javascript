@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" version="1.1" y="0px" width="110px" viewBox="0 0 110 110" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" height="110px" enable-background="new 0 0 110 110">
+ <g>
+  <g id="draw">
+   <g id="shadow">
+    <path fill="none" d="M70.595,24.799c-2.585,0-4.681,2.096-4.681,4.681&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;s2.096,4.681,4.681,4.681" stroke="#BFBFBF" stroke-miterlimit="10" stroke-width="4"/>
+    <polyline points="53.903,44.223 53.903,31.72 66.31,31.72 &#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;" fill="none" stroke="#BFBFBF" stroke-miterlimit="10" stroke-width="4"/>
+    <rect x="18.704" fill="none" stroke="#BFBFBF" y="18.704" stroke-miterlimit="10" width="72.591" height="72.591" stroke-width="4"/>
+    <line fill="none" stroke="#BFBFBF" stroke-miterlimit="10" x2="62.922" y1="75.076" y2="38.482" stroke-width="4" x1="84.269"/>
+    <polygon points="50.506,45.851 35.81,71.042 65.163,71.042 &#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;" fill="none" stroke="#BFBFBF" stroke-miterlimit="10" stroke-width="4"/>
+   </g>
+   <g id="main">
+    <rect x="15" fill="none" stroke="#000000" y="15" stroke-miterlimit="10" width="80" height="80" stroke-width="4"/>
+    <polygon points="50.51,38.406 29.163,75 71.856,75 &#x9;" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="4"/>
+    <line fill="none" stroke="#000000" stroke-miterlimit="10" x2="58.299" y1="75" y2="38.406" stroke-width="4" x1="79.646"/>
+    <path fill="none" d="M67.575,23.656c-2.585,0-4.681,2.096-4.681,4.681&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;s2.096,4.681,4.681,4.681" stroke="#000000" stroke-miterlimit="10" stroke-width="4"/>
+    <polyline points="50.487,38.406 50.487,28.329 &#xd;&#xa;&#x9;&#x9;&#x9;&#x9;62.894,28.329 &#x9;&#x9;" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="4"/>
+   </g>
+  </g>
+  <text fill="#231f20" font-size="12" fill-capacity="0" font-family="'Roboto-Medium'" stroke-capacity="0" transform="matrix(1 0 0 1 40.9347 88.5971)"></text>
+ </g>
+</svg>

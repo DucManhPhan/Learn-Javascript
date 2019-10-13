@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="240px" height="136px" viewBox="1 -27.75 240 136" enable-background="new 1 -27.75 240 136" xml:space="preserve">
+<g>
+	<g id="draw">
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="84.999,71.891 95.372,83.999 
+			86.284,83.999 96.09,94.248 			"/>
+		<path d="M97.296,88.243c0,0.119-1.176,4.838-2.274,5.34c-1.344,0.615-6.262,1.623-6.262,1.623l11.67,4.085L97.296,88.243z"/>
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="68.496,18.479 66.951,32.03 
+			61.643,27.367 59.999,41.891 			"/>
+		<path d="M68.497,11.68l4.826,10.066c0,0-3.64-2.314-5.113-2.442c-1.202-0.103-4.54,1.454-4.54,1.454L68.497,11.68z"/>
+		<polygon fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="59.999,41.891 34.999,71.891 
+			84.999,71.891 			"/>
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="11.775,87.317 21.498,77.752 
+			22.814,85.422 34.999,71.891 			"/>
+		<path d="M5.48,91.364l5.515-10.091c0,0-0.087,4.432,0.709,5.676c0.651,1.016,5.101,2.428,5.22,2.422L5.48,91.364z"/>
+	</g>
+	<g id="draw_1">
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="221.089,43.225 231.462,55.333 
+			222.374,55.333 232.18,65.582 			"/>
+		<path d="M233.386,59.577c0,0.119-1.176,4.838-2.274,5.34c-1.344,0.615-6.262,1.623-6.262,1.623l11.67,4.085L233.386,59.577z"/>
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="204.586,-10.187 203.041,3.364 
+			197.733,-1.299 196.089,13.225 			"/>
+		<path d="M204.587-16.986l4.826,10.066c0,0-3.64-2.314-5.113-2.442c-1.202-0.103-4.54,1.454-4.54,1.454L204.587-16.986z"/>
+		<polygon fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="196.089,13.225 171.089,43.225 
+			221.089,43.225 			"/>
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="147.865,58.651 157.588,49.086 
+			158.904,56.756 171.089,43.225 			"/>
+		<path d="M141.57,62.698l5.515-10.091c0,0-0.087,4.432,0.709,5.676c0.651,1.016,5.101,2.428,5.22,2.422L141.57,62.698z"/>
+	</g>
+	<g id="main">
+		<path fill="none" stroke="#FF0000" stroke-width="6" stroke-miterlimit="10" d="M52.141,37.811
+			c-2.022-4.098-3.15-8.662-3.15-13.474c0-14.852,10.748-27.349,25.348-31.025"/>
+		<path fill="none" stroke="#ED1C24" stroke-width="6" stroke-miterlimit="10" d="M173.631,22.106
+			c0-12.582-7.714-23.474-18.948-28.744"/>
+		<path fill="none" stroke="#ED1C24" stroke-width="6" stroke-miterlimit="10" d="M183.525,14.667
+			c0-15.499-11.217-28.542-26.453-32.377"/>
+		<path fill="none" stroke="#ED1C24" stroke-width="6" stroke-miterlimit="10" d="M40.286,40.276
+			c-2.689-5.451-4.19-11.523-4.19-17.923c0-19.756,14.297-36.381,33.718-41.27"/>
+		<path fill="none" stroke="#ED1C24" stroke-width="6" stroke-miterlimit="10" d="M87.343,47.615c0,0,11.483-1.003,21.701,11.549
+			c8.351,10.259,13.722,19.254,33.914,19.254c19.318,0,34.978-12.095,34.978-25.018"/>
+		<path fill="none" stroke="#ED1C24" stroke-width="6" stroke-miterlimit="10" d="M85.54,63.045c0,0,10.956-2.367,20.616,12.737
+			c7.25,11.337,22.674,18.066,38.097,18.066c18.455,0,42.711-15.429,42.711-29.534"/>
+	</g>
+	<text transform="matrix(1 0 0 1 78.7412 21.573)" font-family="'Roboto-Medium'" font-size="32.589">(GI)</text>
+</g>
+</svg>

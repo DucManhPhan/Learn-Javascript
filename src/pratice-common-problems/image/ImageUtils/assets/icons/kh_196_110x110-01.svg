@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="110px" height="110px" viewBox="0 0 110 110" enable-background="new 0 0 110 110" xml:space="preserve">
+<g id="draw">
+	<g id="shadow">
+		<path fill="none" stroke="#BFBFBF" stroke-width="4" stroke-miterlimit="10" d="M39.262,58.174H51.4
+			c1.169,0,2.539-1.421,2.539-3.174s-1.371-3.174-2.539-3.174H39.262"/>
+		<path fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" d="M75.018,44.408H16.938v21.183h58.081
+			c2.843,0,14.826-10.552,14.826-10.552S77.862,44.408,75.018,44.408z"/>
+	</g>
+	<g id="main">
+		<path fill="none" stroke="#FF0000" stroke-width="6" stroke-miterlimit="10" d="M74.8,38.5H11v33h63.8C80.875,71.5,99,55,99,55
+			S80.875,38.5,74.8,38.5z"/>
+		<path fill="none" stroke="#FF0000" stroke-width="5" stroke-miterlimit="10" d="M39.262,61.654h13.393
+			c2.45,0,5.323-2.979,5.323-6.654s-2.873-6.654-5.323-6.654H39.262"/>
+	</g>
+</g>
+<text x="55" y="60" text-anchor="middle" font-family="'Roboto-Medium'" font-size="17"></text>
+</svg>

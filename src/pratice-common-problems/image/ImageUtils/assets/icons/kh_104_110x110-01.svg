@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="110px" height="110px" viewBox="0 0 110 110" enable-background="new 0 0 110 110" xml:space="preserve">
+<g id="draw">
+	<g id="shadow">
+		<line fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" x1="34.838" y1="49.562" x2="34.838" y2="69.562"/>
+		<line fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" x1="43.278" y1="49.562" x2="43.278" y2="69.562"/>
+		<line fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" x1="29.514" y1="59.562" x2="100.162" y2="59.562"/>
+		<line fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" x1="60.028" y1="49.562" x2="90.162" y2="49.562"/>
+		<line fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" x1="60.028" y1="69.562" x2="90.162" y2="69.562"/>
+		<path fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" d="M9.838,44.562"/>
+		<polyline fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" points="10.195,52.062 30.3,59.562 
+			10.314,67.182"/>
+	</g>
+	<g id="main">
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="34.838" y1="45.55" x2="34.838" y2="65.55"/>
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="43.278" y1="45.55" x2="43.278" y2="65.55"/>
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="29.514" y1="55.55" x2="100.162" y2="55.55"/>
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="60.028" y1="45.55" x2="90.162" y2="45.55"/>
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="60.028" y1="65.55" x2="90.162" y2="65.55"/>
+		<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M9.838,40.55"/>
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="10.076,48.05 30.3,55.55 10.195,63.169"/>
+	</g>
+</g>
+<text x="55" y="60" text-anchor="middle" font-family="'Roboto-Medium'" font-size="17"></text>
+</svg>

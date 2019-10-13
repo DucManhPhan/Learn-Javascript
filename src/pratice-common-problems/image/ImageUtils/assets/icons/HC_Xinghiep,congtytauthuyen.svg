@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C0BFBF;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#C0BFBF;stroke-width:3;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:#C0BFBF;}
+	.st8{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#ED2224;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#ED2224;stroke-width:4;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#ED2224;stroke-width:5;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#ED2224;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#ED2224;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#ED2224;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#ED2224;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st16{fill:#ED2224;}
+	.st17{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st21{stroke:#000000;stroke-miterlimit:10;}
+	.st22{font-family:'Arial-BoldMT';}
+	.st23{font-size:12px;}
+</style>
+<g id="shadow">
+	<path class="st1" d="M107.3,47c1,1.7,1.5,3.4,1.5,5.2c0,11.6-21.9,21-48.9,21s-48.9-9.4-48.9-21c0-1.8,0.5-3.5,1.5-5.2"/>
+	<line class="st1" x1="63" y1="23.8" x2="63" y2="65.8"/>
+	<ellipse class="st1" cx="60" cy="44.8" rx="47" ry="18"/>
+</g>
+<g id="main">
+	<ellipse class="st8" cx="60" cy="44.8" rx="50" ry="21"/>
+	<path class="st8" d="M108.5,50c1,1.7,1.5,3.4,1.5,5.2c0,11.6-22.4,21-50,21s-50-9.4-50-21c0-1.8,0.5-3.5,1.5-5.2"/>
+	<line class="st8" x1="60" y1="23.8" x2="60" y2="65.8"/>
+</g>
+</svg>

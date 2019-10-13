@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 140 130" style="enable-background:new 0 0 140 130;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C0BFBF;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#C0BFBF;stroke-width:4;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#C0BFBF;stroke-width:3;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#C0BFBF;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:#C0BFBF;}
+	.st8{fill:none;stroke:#ED2224;stroke-width:6;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#ED2224;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#ED2224;stroke-width:4;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#ED2224;stroke-width:5;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#ED2224;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#ED2224;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#ED2224;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#ED2224;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st16{fill:#ED2224;}
+	.st17{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st21{stroke:#000000;stroke-miterlimit:10;}
+	.st22{font-family:'Arial-BoldMT';}
+	.st23{font-size:12px;}
+</style>
+<g id="shadow">
+	<polygon class="st3" points="29.8,44.4 70,13.2 110.2,44.4 	"/>
+	<rect x="26" y="50.4" class="st1" width="88" height="38"/>
+	<line class="st1" x1="20" y1="104.4" x2="120" y2="104.4"/>
+</g>
+<g id="main">
+	<rect x="23" y="47.4" class="st8" width="94" height="44"/>
+	<line class="st8" x1="20" y1="101.4" x2="120" y2="101.4"/>
+	<path class="st16" d="M120,44.4L70,5.6L20,44.4v6h100V44.4z M70,13.2l40.2,31.2H29.8L70,13.2z"/>
+</g>
+</svg>

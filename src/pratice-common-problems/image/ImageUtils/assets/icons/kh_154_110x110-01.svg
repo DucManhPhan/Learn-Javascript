@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="110px" height="110px" viewBox="0 0 110 110" enable-background="new 0 0 110 110" xml:space="preserve">
+<g id="draw">
+	<g id="shadow">
+		<polyline fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" points="52.007,59.606 48.747,47.894 
+			55.46,50.582 50.479,31.628"/>
+		<path fill="#BFBFBF" d="M59.214,34.863c0,0-6.528-3.107-8.394-2.496c-2.285,0.749-5.501,6.495-5.501,6.495l2.207-18.468
+			L59.214,34.863z"/>
+		<path fill="none" stroke="#BFBFBF" stroke-width="6" stroke-miterlimit="10" d="M72.651,64.832L20.75,64.764v19.548l51.9,0.068
+			c2.984,0,13.643-9.737,13.643-9.737S75.635,64.832,72.651,64.832z"/>
+	</g>
+	<g id="main">
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="48.018,59.606 43.933,45.644 
+			51.109,48.999 46.487,31.682"/>
+		<path fill="#000000" stroke="none" stroke-width="6" d="M55.159,35.081c0,0-6.468-3.23-8.345-2.654c-2.299,0.705-5.622,6.39-5.622,6.39l2.555-18.424L55.159,35.081z"/>
+		<path fill="none" stroke="#FF0000" stroke-width="6" stroke-miterlimit="10" d="M73,59.606H15v30h58c5.523,0,22-15,22-15
+			S78.523,59.606,73,59.606z"/>
+		<line fill="none" stroke="#FF0000" stroke-width="6" stroke-miterlimit="10" x1="27.421" y1="59.606" x2="27.421" y2="89.606"/>
+	</g>
+</g>
+<text x="55" y="60" text-anchor="middle" font-family="'Roboto-Medium'" font-size="17"></text>
+</svg>
