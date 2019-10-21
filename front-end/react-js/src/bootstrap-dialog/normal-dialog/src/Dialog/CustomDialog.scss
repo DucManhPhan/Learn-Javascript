@@ -1,0 +1,107 @@
+$normal-fontsize: 16px;
+$normal-color: #000000;
+$normal-fontweight: normal;
+
+$titleheader-fontsize: 22px;
+$titleheader-color: #29BE5C;
+$titleheader-fontweight: bold;
+
+@mixin font-name($fontsize, $color, $fontweight) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: $fontweight;
+    font-size: $fontsize;
+    color: $color;
+    margin: 0 0 0 30px;
+}
+
+.figure-dialog {
+    width: 516px;
+    height: 685px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    background-color: gray;
+    margin: 20px 0 0 10px;
+
+    .dialog-header {
+        width: 516px;
+        height: 52px;
+        background: #333333;
+        border-radius: 12px 12px 0px 0px;
+
+        &.row {
+            @extend %shared-row;
+        }
+
+        .title-header {
+            &.name {
+                @include font-name($titleheader-fontsize, $titleheader-color, $titleheader-fontweight);
+            }
+        }
+
+        .close-btn {
+            margin: 5px 10px 0 0;
+        }
+    }
+
+    .dialog-content {
+        .row {
+            @extend %shared-row;
+            margin-top: 10px;
+
+            .name {
+                @include font-name($normal-fontsize, $normal-color, $normal-fontweight);
+            }
+
+            .text-content {
+                width: 314px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #DDDDDD;
+                box-sizing: border-box;
+                border-radius: 6px;
+                margin-right: 35px;
+                line-height: 20px;
+
+                &.inc-dec {
+                    display: flex;
+                    flex-flow: row;
+                }
+            }
+
+            .font-info {
+                display: flex;
+                flex-flow: column;
+                margin: 65px 0 0 0;
+
+                .font-edge {
+                    display: flex;
+                    flex-flow: row;
+                    margin-top: 15px;
+                }
+
+                .font-type {
+                    display: flex;
+                    flex-flow: row;
+                    margin-top: 10px;
+                }
+            }
+
+            &.row-btns {
+                justify-content: space-around;
+                margin-top: 65px;
+            }
+
+        }
+    }
+}
+
+%shared-row {
+    width: 516px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
