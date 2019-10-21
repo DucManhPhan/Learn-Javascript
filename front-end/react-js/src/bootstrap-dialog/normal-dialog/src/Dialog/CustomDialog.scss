@@ -1,3 +1,5 @@
+$font-family: Roboto;
+
 $normal-fontsize: 16px;
 $normal-color: #000000;
 $normal-fontweight: normal;
@@ -7,7 +9,7 @@ $titleheader-color: #29BE5C;
 $titleheader-fontweight: bold;
 
 @mixin font-name($fontsize, $color, $fontweight) {
-    font-family: Roboto;
+    font-family: $font-family;
     font-style: normal;
     font-weight: $fontweight;
     font-size: $fontsize;
@@ -16,8 +18,10 @@ $titleheader-fontweight: bold;
 }
 
 .figure-dialog {
+    font-family: $font-family;
+    font-size: $normal-fontsize;
     width: 516px;
-    height: 685px;
+    height: 650px;
     background: #FFFFFF;
     border-radius: 12px;
     background-color: gray;
@@ -29,7 +33,7 @@ $titleheader-fontweight: bold;
         background: #333333;
         border-radius: 12px 12px 0px 0px;
 
-        &.row {
+        &.row-dialog {
             @extend %shared-row;
         }
 
@@ -41,11 +45,15 @@ $titleheader-fontweight: bold;
 
         .close-btn {
             margin: 5px 10px 0 0;
+
+            img {
+                vertical-align: 0;
+            }
         }
     }
 
     .dialog-content {
-        .row {
+        .row-dialog {
             @extend %shared-row;
             margin-top: 10px;
 
@@ -72,7 +80,7 @@ $titleheader-fontweight: bold;
             .font-info {
                 display: flex;
                 flex-flow: column;
-                margin: 65px 0 0 0;
+                margin: 90px 0 0 0;
 
                 .font-edge {
                     display: flex;
@@ -83,13 +91,44 @@ $titleheader-fontweight: bold;
                 .font-type {
                     display: flex;
                     flex-flow: row;
-                    margin-top: 10px;
+                    margin-top: 15px;
+
+                    .font, .font-size {
+                        width: 43%;                        
+                    }
+
+                    .font {
+                        margin-right: 14px;
+                    }
                 }
             }
 
             &.row-btns {
                 justify-content: space-around;
-                margin-top: 65px;
+                margin-top: 110px;
+
+                .default-btn {
+                    font-family: $font-family;
+                    width: 127px;
+                    height: 40px;
+                    border-radius: 6px;
+                    font-weight: bold;
+
+                    &.close-btn {
+                        color: #000000;
+                        background-color: #eeeeee;
+                    }
+
+                    &.advanced-btn {
+                        color: #3BD06E;
+                        background-color: #ffffff;
+                    }
+
+                    &.save-btn {
+                        color: #ffffff;
+                        background-color: #3BD06E;
+                    }
+                }
             }
 
         }
@@ -98,7 +137,7 @@ $titleheader-fontweight: bold;
 
 %shared-row {
     width: 516px;
-    height: 60px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

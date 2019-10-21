@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from '../logo.svg';
 import './App.scss';
 import { CustomDialog } from '../Dialog/CustomDialog';
+import '../../node_modules/bootstrap/dist/css/bootstrap.css'; // bootstrap/dist/css/bootstrap.css';
+// import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
 
 const App: React.FC = () => {
   return (

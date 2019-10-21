@@ -1,10 +1,17 @@
 import React from "react";
 import './CustomDialog.scss';
 import { Checkbox } from "../Checkbox/Checkbox";
+import { Form, Button, FormCheck } from 'react-bootstrap';
+import { SpinBox } from "../SpinBox/SpinBox";
+import { number } from "prop-types";
 
 
 export class CustomDialog extends React.Component {
     
+    state = {
+        valueOfAngle: 45
+    }
+
     constructor(props: any) {
         super(props);
     }
@@ -12,7 +19,7 @@ export class CustomDialog extends React.Component {
     render() {
         return (
             <div className="figure-dialog">
-                <div className="dialog-header row">
+                <div className="dialog-header row-dialog">
                     <div className="title-header name">Chỉnh sửa ký hiệu</div>
                     <div className="close-btn">
                         <img src="./asset/images/close-dialog-btn.png" />
@@ -20,60 +27,40 @@ export class CustomDialog extends React.Component {
                 </div>
 
                 <div className="dialog-content">
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Tên</div>
                         <input type="text" className="text-content"/>
                     </div>
 
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Góc quay</div>
-                        <div className="text-content inc-dec">
-                            <div className="decrement">-</div>
-                            <div className="inc-dec-content">
-                                <input type="text" className="inc-dec-text"/>
-                            </div>
-                            <div className="increment">+</div>
-                        </div>
+                        <SpinBox value={this.state.valueOfAngle} />
                     </div>
 
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Tỷ lệ</div>
-                        <div className="text-content inc-dec">
-                            <div className="decrement">-</div>
-                            <div className="inc-dec-content">
-                                <input type="text" className="inc-dec-text"/>
-                            </div>
-                            <div className="increment">+</div>
-                        </div>
+                        <SpinBox />
                     </div>
 
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Độ cao (M)</div>
-                        <div className="text-content inc-dec">
-                            <div className="decrement">-</div>
-                            <div className="inc-dec-content">
-                                <input type="text" className="inc-dec-text"/>
-                            </div>
-                            <div className="increment">+</div>
-                        </div>
+                        <SpinBox />
                     </div>
 
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Ta/Địch</div>
-                        <div className="text-content type-contender">
-                            <select name="" id="">
-                                <option value="">Quân Ta</option>
-                                <option value="">Quân Địch</option>
-                            </select>
-                        </div>
+                        <Form.Control as="select" className="text-content">
+                            <option>Quân Ta</option>
+                            <option>Quân Địch</option>
+                        </Form.Control>
                     </div>
 
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Vị trí</div>
                         <input type="text" className="text-content"/>
                     </div>
 
-                    <div className="row">
+                    <div className="row-dialog">
                         <div className="name">Chữ</div>
                         <div className="font-info">
                             <input type="text" className="text-content"/>
@@ -83,20 +70,26 @@ export class CustomDialog extends React.Component {
                                 <Checkbox path="./asset/images/underline.png" />
                             </div>
                             <div className="font-type">
-                                <select name="" className="font">
-                                    <option value="">VnArial</option>
-                                </select>
-                                <select name="" className="font-size">
-                                    <option value="">12</option>
-                                </select>
+                                <Form.Control as="select" className="font">
+                                    <option>VnArial</option>
+                                    <option>Times New Roman</option>
+                                </Form.Control>
+
+                                <Form.Control as="select" className="font-size">
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>                                    
+                                </Form.Control>
                             </div>
                         </div>
                     </div>
 
-                    <div className="row row-btns">
-                        <button className="default-btn close-btn">Đóng</button>
-                        <button className="default-btn advanced-btn">Nâng cao</button>
-                        <button className="default-btn save-btn">Lưu</button>
+                    <div className="row-dialog row-btns">
+                        <Button variant="secondary" className="default-btn close-btn">Đóng</Button>
+                        <Button variant="secondary" className="default-btn advanced-btn">Nâng cao</Button>
+                        <Button variant="secondary" className="default-btn save-btn">Lưu</Button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,54 @@
+$bkg-color-btn: #F8F8F8;
+$color-btn: #000000;
+
+.text-content {
+
+    border: 1px solid #E0E0E0;
+
+    &.inc-dec {
+    
+        .increment, .decrement {
+            @extend %curve-btn;
+        }
+        
+        .decrement {
+            border-radius: 6px 0 0 6px;
+        }
+
+        .increment {
+            border-radius: 0 6px 6px 0;
+        }
+
+        .increment:focus, .increment:active {
+            background-color: transparent !important;
+        }
+
+        .decrement:focus, .decrement:active {
+            background-color: transparent !important;
+        }
+
+        .inc-dec-text {
+            text-align: center;
+            width: 246px;
+            border: 0px solid #E0E0E0;
+            border-left: 1px solid #E0E0E0;
+            border-right: 1px solid #E0E0E0;
+
+            &:focus {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+%curve-btn {
+    background-color: $bkg-color-btn;
+    color: $color-btn;
+    border: 0px solid #E0E0E0;
+    width: 40px;
+    font-weight: bold;
+    font-family: Roboto;
+
+    outline: none !important;
+    box-shadow: none !important;
+}
