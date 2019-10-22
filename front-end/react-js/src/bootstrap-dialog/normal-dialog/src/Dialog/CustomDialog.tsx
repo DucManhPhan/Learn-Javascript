@@ -9,7 +9,12 @@ import { number } from "prop-types";
 export class CustomDialog extends React.Component {
     
     state = {
-        valueOfAngle: 45
+        valueOfAngle: 45,
+        valueOfRate: 2.3,
+        valueOfHigh: 200,
+        unitOfAngle: 1,
+        unitOfRate: 1,
+        unitOfHigh: 1
     }
 
     constructor(props: any) {
@@ -34,17 +39,26 @@ export class CustomDialog extends React.Component {
 
                     <div className="row-dialog">
                         <div className="name">Góc quay</div>
-                        <SpinBox value={this.state.valueOfAngle} />
+                        <SpinBox idIncreamentBtn="increased-angle"
+                                 idDecreamentBtn="decreased-angle"
+                                 unit={this.state.unitOfAngle}
+                                 value={this.state.valueOfAngle} />
                     </div>
 
                     <div className="row-dialog">
                         <div className="name">Tỷ lệ</div>
-                        <SpinBox />
+                        <SpinBox idIncreamentBtn="increased-rate"
+                                 idDecreamentBtn="decreased-rate"
+                                 unit={this.state.unitOfRate}
+                                 value={this.state.valueOfRate} />
                     </div>
 
                     <div className="row-dialog">
                         <div className="name">Độ cao (M)</div>
-                        <SpinBox />
+                        <SpinBox idIncreamentBtn="increased-high"
+                                 idDecreamentBtn="decreased-high"
+                                 unit={this.state.unitOfHigh}
+                                 value={this.state.valueOfHigh} />
                     </div>
 
                     <div className="row-dialog">

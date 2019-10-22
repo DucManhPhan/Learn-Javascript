@@ -4,46 +4,79 @@ import './SpinBox.scss';
 import { number } from "prop-types";
 
 type TSpintboxProps = {
-    value?: number,
-    onChangeValue?: any
+    value: number,
+    onChangeValue?: any,
+    unit: number,
+    idIncreamentBtn: any,
+    idDecreamentBtn: any
 }
 
-export class SpinBox extends React.Component<TSpintboxProps, {}> {
+type TSpinBoxState = {
+    value: number
+}
 
-    state = {
-        value: 0
-    }
+export class SpinBox extends React.Component<TSpintboxProps, TSpinBoxState> {
 
     constructor(props: TSpintboxProps) {
         super(props);
-        this.setState({
-            value: this.props.value
-        })
+        // this.currentValue = this.props.value;
+        this.state = {
+            value : this.props.value
+        };
     }
 
-    onDecrease = () => {
-        let value: number = this.state.value - 1;
+    onDecrease = (event: any) => {
+        this.calculate(event.target.id);
+    }
+
+    onIncrease = (event: any) => {
+        this.calculate(event.target.id);
+    }
+
+    private calculate(idElement: any): void {
+        let value = this.state.value + this.props.unit;
+
+        // get input text element that is sibling of decrement button
+        let activeBtn = document.getElementById(idElement);
+        let nextSiblingDecrementElement = null;
+        let previousSiblingIncrementElement = null;
+
+        if (activeBtn) {
+            // @ts-ignore
+            nextSiblingDecrementElement = activeBtn.nextSibling;
+
+            // @ts-ignore
+            previousSiblingIncrementElement = activeBtn.previousSibling;
+        }
+
+        // @ts-ignore
+        let inputText: HTMLInputElement = nextSiblingDecrementElement || previousSiblingIncrementElement;
+        if (!inputText) {
+            console.log("Do not get the input text element.");
+            return;
+        }
+
+        // @ts-ignore
+        inputText.value = value.toString();
+
         this.setState({
             value
         });
-
-        let inputText = document.getElementsByTagName("input")[0];
-        inputText.innerText = value.toString();
     }
 
-    onIncrease = () => {
-        let value: number = this.state.value + 1;
+    onChange = (event: any) => {
+        console.log('Textbox changed value with ', event);
         this.setState({
-            value
-        });
+            value : event.target.value
+        }); 
     }
 
     render() {
         return (
             <div className="text-content inc-dec">
-                <Button className="decrement" onClick={this.onDecrease}>-</Button>
-                <input type="text" className="inc-dec-text" value={this.props.value} onChange={this.props.onChangeValue}/>
-                <Button className="increment" onClick={this.onIncrease}>+</Button>
+                <Button id={this.props.idDecreamentBtn} className="decrement" onClick={this.onDecrease}>-</Button>
+                <input type="text" className="inc-dec-text" value={this.state.value} onChange={this.onChange}/>
+                <Button id={this.props.idIncreamentBtn} className="increment" onClick={this.onIncrease}>+</Button>
             </div>
         );
     }
