@@ -41,7 +41,10 @@ router.post('/', (req: any, res: any, next: any) => {
 router.get('/', (req: any, res: any, next: any) => {
   return Articles.find()
                  .sort({ createdAt: 'descending' })
-                 .then((articles) => res.json({ articles: articles.map(article => article.toJSON()) }))
+                 .then((articles) => {
+                     console.log('Value of articles in mongodb: ', articles);
+                     res.json({ articles: articles.map(article => article.toJSON()) })
+                 })  
                  .catch(next);
 });
 

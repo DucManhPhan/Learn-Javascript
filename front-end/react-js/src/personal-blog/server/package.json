@@ -8,7 +8,7 @@
     "dev": "npm run start:dev",
     "build": "npm-run-all clean tsc",
     "tsc": "tsc",
-    "start:dev": "ts-node-dev --respawn --transpileOnly ./server.ts",
+    "start:dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
     "start:prod": "tsc && node ./dist/server.js",
     "clean": "rimraf dist/*",
     "copy-assets": "ts-node tools/copyAssets"
@@ -42,6 +42,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/errorhandler": "0.0.32",
     "@types/express-session": "^1.15.15",
+    "@types/mongodb": "^3.3.6",
     "@types/mongoose": "^5.5.22",
     "app-root-path": "^2.2.1",
     "ts-node": "^8.4.1",
