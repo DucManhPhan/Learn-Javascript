@@ -1,14 +1,26 @@
 import React from 'react';
-import logo from '../../logo.svg';
 import './App.scss';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import { Header } from '../Header/Header';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Sidebar } from '../Sidebar/Sidebar';
+import { Content } from '../Content/Content';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <Container>
+      <Row className=''>
+        <Header />
+      </Row>
+      <Row>
+        <Col>
+          <Sidebar />
+        </Col>
+        <Col>
+          <Content />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

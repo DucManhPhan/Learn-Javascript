@@ -34,4 +34,12 @@
         }
     }
 
+    .navbar-collapse {
+        &.show {
+            .search-txtbox {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
 }
