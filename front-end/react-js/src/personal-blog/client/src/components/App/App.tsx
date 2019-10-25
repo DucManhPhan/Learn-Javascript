@@ -6,9 +6,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Sidebar } from '../Sidebar/Sidebar';
 import { Content } from '../Content/Content';
 
+
+/**
+ * https://react-bootstrap.github.io/layout/grid/
+ * 
+ */
 const App: React.FC = () => {
   return (
-    <Container>
+    <Container fluid={true}>
       <Row className=''>
         <Header />
       </Row>
